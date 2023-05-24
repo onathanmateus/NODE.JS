@@ -10,7 +10,7 @@ let cursosInfo = [
 ]
 
 rotas.get('/', (req, res) => {
-  res.json({olá: 'Seja bem-vindo!'});
+  res.json({olá: 'Seja bem-vindo!'})
 });
 
 rotas.get('/:cursoid', (req, res) => {
